@@ -1,0 +1,6 @@
+framework module Pods_HeroFitnessApp {
+  umbrella header "Pods-HeroFitnessApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

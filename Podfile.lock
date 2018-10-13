@@ -1,0 +1,24 @@
+PODS:
+  - LinearProgressBar (1.0.1)
+  - UPCarouselFlowLayout (1.1.1)
+  - XCDYouTubeKit (2.5.6)
+
+DEPENDENCIES:
+  - LinearProgressBar
+  - UPCarouselFlowLayout
+  - XCDYouTubeKit (~> 2.5)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - LinearProgressBar
+    - UPCarouselFlowLayout
+    - XCDYouTubeKit
+
+SPEC CHECKSUMS:
+  LinearProgressBar: f6a74dbabed229dbb1a7978089e2e4317a3a0ee0
+  UPCarouselFlowLayout: 02045c1505d63057fba3d9975be880a8d16bf17d
+  XCDYouTubeKit: dccfe0c17dd5c5187969ec27e93069573badb08f
+
+PODFILE CHECKSUM: e7dff4af0ccf166c1521140b8233966fd6c38e96
+
+COCOAPODS: 1.5.3

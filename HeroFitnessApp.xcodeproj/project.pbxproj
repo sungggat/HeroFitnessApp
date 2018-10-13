@@ -7,23 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CBC5E6B5F597AAEF496F422 /* Pods_HeroFitnessApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D303396351B324B89BA37C85 /* Pods_HeroFitnessApp.framework */; };
 		883374E1210EDC0C00F1EDF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883374E0210EDC0C00F1EDF7 /* AppDelegate.swift */; };
 		883374E3210EDC0C00F1EDF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883374E2210EDC0C00F1EDF7 /* ViewController.swift */; };
-		883374E6210EDC0C00F1EDF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883374E4210EDC0C00F1EDF7 /* Main.storyboard */; };
 		883374E9210EDC0C00F1EDF7 /* HeroFitnessApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 883374E7210EDC0C00F1EDF7 /* HeroFitnessApp.xcdatamodeld */; };
 		883374EB210EDC0E00F1EDF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883374EA210EDC0E00F1EDF7 /* Assets.xcassets */; };
 		883374EE210EDC0E00F1EDF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883374EC210EDC0E00F1EDF7 /* LaunchScreen.storyboard */; };
+		883374F7210EFB9800F1EDF7 /* WalkThroughCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883374F5210EFB9800F1EDF7 /* WalkThroughCollectionViewCell.swift */; };
+		883374F8210EFB9800F1EDF7 /* WalkThroughCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 883374F6210EFB9800F1EDF7 /* WalkThroughCollectionViewCell.xib */; };
+		883375062111832400F1EDF7 /* Superhero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883375052111832400F1EDF7 /* Superhero.swift */; };
+		883375082111939100F1EDF7 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883375072111939100F1EDF7 /* Workout.swift */; };
+		8833750A2111A30A00F1EDF7 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883375092111A30A00F1EDF7 /* WorkoutViewController.swift */; };
+		8833750C2111A3FA00F1EDF7 /* WorkoutDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833750B2111A3FA00F1EDF7 /* WorkoutDataSource.swift */; };
+		8833750E2111C60300F1EDF7 /* WorkoutViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833750D2111C60300F1EDF7 /* WorkoutViewCell.swift */; };
+		883375102113062D00F1EDF7 /* UIColorAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833750F2113062D00F1EDF7 /* UIColorAdditions.swift */; };
+		88337516211307FA00F1EDF7 /* UIFontAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88337515211307FA00F1EDF7 /* UIFontAdditions.swift */; };
+		883375172113088000F1EDF7 /* DIN-Condensed-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 88337514211307BE00F1EDF7 /* DIN-Condensed-Bold.otf */; };
+		88337519211312A100F1EDF7 /* SuperheroDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88337518211312A100F1EDF7 /* SuperheroDataSource.swift */; };
+		8862DE992117EA3E00312777 /* DetailedWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8862DE982117EA3E00312777 /* DetailedWorkoutViewController.swift */; };
+		8862DEA02118248500312777 /* WorkoutEndedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8862DE9F2118248500312777 /* WorkoutEndedViewController.swift */; };
+		8862DEA32119558600312777 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8862DEA12119558500312777 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		883374DD210EDC0C00F1EDF7 /* HeroFitnessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroFitnessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		883374E0210EDC0C00F1EDF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		883374E2210EDC0C00F1EDF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		883374E5210EDC0C00F1EDF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		883374E8210EDC0C00F1EDF7 /* HeroFitnessApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HeroFitnessApp.xcdatamodel; sourceTree = "<group>"; };
 		883374EA210EDC0E00F1EDF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		883374ED210EDC0E00F1EDF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		883374EF210EDC0E00F1EDF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		883374F5210EFB9800F1EDF7 /* WalkThroughCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkThroughCollectionViewCell.swift; sourceTree = "<group>"; };
+		883374F6210EFB9800F1EDF7 /* WalkThroughCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WalkThroughCollectionViewCell.xib; sourceTree = "<group>"; };
+		883375052111832400F1EDF7 /* Superhero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Superhero.swift; sourceTree = "<group>"; };
+		883375072111939100F1EDF7 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		883375092111A30A00F1EDF7 /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
+		8833750B2111A3FA00F1EDF7 /* WorkoutDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDataSource.swift; sourceTree = "<group>"; };
+		8833750D2111C60300F1EDF7 /* WorkoutViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewCell.swift; sourceTree = "<group>"; };
+		8833750F2113062D00F1EDF7 /* UIColorAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorAdditions.swift; sourceTree = "<group>"; };
+		88337514211307BE00F1EDF7 /* DIN-Condensed-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "DIN-Condensed-Bold.otf"; path = "../../../../../../../Downloads/DIN-Condensed-Bold.otf"; sourceTree = "<group>"; };
+		88337515211307FA00F1EDF7 /* UIFontAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontAdditions.swift; sourceTree = "<group>"; };
+		88337518211312A100F1EDF7 /* SuperheroDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroDataSource.swift; sourceTree = "<group>"; };
+		8862DE982117EA3E00312777 /* DetailedWorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedWorkoutViewController.swift; sourceTree = "<group>"; };
+		8862DE9F2118248500312777 /* WorkoutEndedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutEndedViewController.swift; sourceTree = "<group>"; };
+		8862DEA22119558600312777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8862DEA42119717900312777 /* SignPainter-HouseScript.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SignPainter-HouseScript.ttf"; path = "../../../../../../../Downloads/SignPainter-HouseScript.ttf"; sourceTree = "<group>"; };
+		91C1DA424EEB3B42BF5AC390 /* Pods-HeroFitnessApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroFitnessApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeroFitnessApp/Pods-HeroFitnessApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D303396351B324B89BA37C85 /* Pods_HeroFitnessApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeroFitnessApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA15FA52D9D09417631D4BBB /* Pods-HeroFitnessApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroFitnessApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeroFitnessApp/Pods-HeroFitnessApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +62,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CBC5E6B5F597AAEF496F422 /* Pods_HeroFitnessApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4801D90C9C61840151CC6D32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D303396351B324B89BA37C85 /* Pods_HeroFitnessApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		883374D4210EDC0C00F1EDF7 = {
 			isa = PBXGroup;
 			children = (
 				883374DF210EDC0C00F1EDF7 /* HeroFitnessApp */,
 				883374DE210EDC0C00F1EDF7 /* Products */,
+				B22D63F0132D85B36D59A8B1 /* Pods */,
+				4801D90C9C61840151CC6D32 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +99,69 @@
 			isa = PBXGroup;
 			children = (
 				883374E0210EDC0C00F1EDF7 /* AppDelegate.swift */,
+				8862DE9E2118075B00312777 /* Model */,
+				883375092111A30A00F1EDF7 /* WorkoutViewController.swift */,
 				883374E2210EDC0C00F1EDF7 /* ViewController.swift */,
-				883374E4210EDC0C00F1EDF7 /* Main.storyboard */,
+				8862DEA12119558500312777 /* Main.storyboard */,
+				883375112113063A00F1EDF7 /* Extensions */,
+				8833750D2111C60300F1EDF7 /* WorkoutViewCell.swift */,
+				8862DE9F2118248500312777 /* WorkoutEndedViewController.swift */,
+				8862DE982117EA3E00312777 /* DetailedWorkoutViewController.swift */,
+				883374F5210EFB9800F1EDF7 /* WalkThroughCollectionViewCell.swift */,
+				883374F6210EFB9800F1EDF7 /* WalkThroughCollectionViewCell.xib */,
 				883374EA210EDC0E00F1EDF7 /* Assets.xcassets */,
+				883375122113078900F1EDF7 /* Resources */,
 				883374EC210EDC0E00F1EDF7 /* LaunchScreen.storyboard */,
 				883374EF210EDC0E00F1EDF7 /* Info.plist */,
 				883374E7210EDC0C00F1EDF7 /* HeroFitnessApp.xcdatamodeld */,
 			);
 			path = HeroFitnessApp;
+			sourceTree = "<group>";
+		};
+		883375112113063A00F1EDF7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8833750F2113062D00F1EDF7 /* UIColorAdditions.swift */,
+				88337515211307FA00F1EDF7 /* UIFontAdditions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		883375122113078900F1EDF7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				88337513211307A300F1EDF7 /* fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		88337513211307A300F1EDF7 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				88337514211307BE00F1EDF7 /* DIN-Condensed-Bold.otf */,
+				8862DEA42119717900312777 /* SignPainter-HouseScript.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		8862DE9E2118075B00312777 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				883375052111832400F1EDF7 /* Superhero.swift */,
+				883375072111939100F1EDF7 /* Workout.swift */,
+				8833750B2111A3FA00F1EDF7 /* WorkoutDataSource.swift */,
+				88337518211312A100F1EDF7 /* SuperheroDataSource.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B22D63F0132D85B36D59A8B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91C1DA424EEB3B42BF5AC390 /* Pods-HeroFitnessApp.debug.xcconfig */,
+				EA15FA52D9D09417631D4BBB /* Pods-HeroFitnessApp.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 883374F2210EDC0E00F1EDF7 /* Build configuration list for PBXNativeTarget "HeroFitnessApp" */;
 			buildPhases = (
+				FC18552D053A651842E63220 /* [CP] Check Pods Manifest.lock */,
 				883374D9210EDC0C00F1EDF7 /* Sources */,
 				883374DA210EDC0C00F1EDF7 /* Frameworks */,
 				883374DB210EDC0C00F1EDF7 /* Resources */,
+				DD45AE558BF810D06C3E6462 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,41 +225,97 @@
 			buildActionMask = 2147483647;
 			files = (
 				883374EE210EDC0E00F1EDF7 /* LaunchScreen.storyboard in Resources */,
+				8862DEA32119558600312777 /* Main.storyboard in Resources */,
 				883374EB210EDC0E00F1EDF7 /* Assets.xcassets in Resources */,
-				883374E6210EDC0C00F1EDF7 /* Main.storyboard in Resources */,
+				883375172113088000F1EDF7 /* DIN-Condensed-Bold.otf in Resources */,
+				883374F8210EFB9800F1EDF7 /* WalkThroughCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DD45AE558BF810D06C3E6462 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HeroFitnessApp/Pods-HeroFitnessApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LinearProgressBar/LinearProgressBar.framework",
+				"${BUILT_PRODUCTS_DIR}/UPCarouselFlowLayout/UPCarouselFlowLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/XCDYouTubeKit/XCDYouTubeKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LinearProgressBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UPCarouselFlowLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCDYouTubeKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeroFitnessApp/Pods-HeroFitnessApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC18552D053A651842E63220 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeroFitnessApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		883374D9210EDC0C00F1EDF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88337519211312A100F1EDF7 /* SuperheroDataSource.swift in Sources */,
+				8833750C2111A3FA00F1EDF7 /* WorkoutDataSource.swift in Sources */,
+				8833750E2111C60300F1EDF7 /* WorkoutViewCell.swift in Sources */,
+				883375062111832400F1EDF7 /* Superhero.swift in Sources */,
+				88337516211307FA00F1EDF7 /* UIFontAdditions.swift in Sources */,
 				883374E3210EDC0C00F1EDF7 /* ViewController.swift in Sources */,
+				8862DE992117EA3E00312777 /* DetailedWorkoutViewController.swift in Sources */,
+				8833750A2111A30A00F1EDF7 /* WorkoutViewController.swift in Sources */,
+				883374F7210EFB9800F1EDF7 /* WalkThroughCollectionViewCell.swift in Sources */,
 				883374E1210EDC0C00F1EDF7 /* AppDelegate.swift in Sources */,
+				8862DEA02118248500312777 /* WorkoutEndedViewController.swift in Sources */,
 				883374E9210EDC0C00F1EDF7 /* HeroFitnessApp.xcdatamodeld in Sources */,
+				883375082111939100F1EDF7 /* Workout.swift in Sources */,
+				883375102113062D00F1EDF7 /* UIColorAdditions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		883374E4210EDC0C00F1EDF7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				883374E5210EDC0C00F1EDF7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		883374EC210EDC0E00F1EDF7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				883374ED210EDC0E00F1EDF7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8862DEA12119558500312777 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8862DEA22119558600312777 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -282,37 +437,47 @@
 		};
 		883374F3210EDC0E00F1EDF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91C1DA424EEB3B42BF5AC390 /* Pods-HeroFitnessApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B2UW2373C8;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = AB65P3C5XF;
 				INFOPLIST_FILE = HeroFitnessApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = sungggat.HeroFitnessApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sungataiymbay.herofitnessapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "221878a9-f8c8-4dbe-aaea-5ad9d17f50e6";
+				PROVISIONING_PROFILE_SPECIFIER = HeroifyDistribution;
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		883374F4210EDC0E00F1EDF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA15FA52D9D09417631D4BBB /* Pods-HeroFitnessApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B2UW2373C8;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = AB65P3C5XF;
 				INFOPLIST_FILE = HeroFitnessApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = sungggat.HeroFitnessApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sungataiymbay.herofitnessapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "221878a9-f8c8-4dbe-aaea-5ad9d17f50e6";
+				PROVISIONING_PROFILE_SPECIFIER = HeroifyDistribution;
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
